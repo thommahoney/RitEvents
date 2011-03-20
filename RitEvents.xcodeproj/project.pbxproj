@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RitEventsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RitEventsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		3F0FC416110DEFF800675008 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FC414110DEFF800675008 /* 20-gear2.png */; };
+		3F0FC417110DEFF800675008 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FC415110DEFF800675008 /* 83-calendar.png */; };
+		3F0FC41B110DF05900675008 /* 71-compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FC41A110DF05900675008 /* 71-compass.png */; };
+		3F0FC453110DF22700675008 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0FC452110DF22700675008 /* MapKit.framework */; };
+		3F25DFF61129AB5800B24E70 /* FeedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F25DFF51129AB5800B24E70 /* FeedEvent.m */; };
+		4614D17411275EEA004487DE /* RitEvents.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4614D17311275EEA004487DE /* RitEvents.xcdatamodel */; };
+		4614D1841127603B004487DE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4614D1831127603B004487DE /* CoreData.framework */; };
+		46B0050D112CDA15004ED233 /* FeedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B0050B112CDA15004ED233 /* FeedDetailViewController.m */; };
+		46B0050E112CDA15004ED233 /* FeedDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B0050C112CDA15004ED233 /* FeedDetailViewController.xib */; };
+		46CAC351112753FD0017C67E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC34F112753FD0017C67E /* SettingsViewController.m */; };
+		46CAC352112753FD0017C67E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CAC350112753FD0017C67E /* SettingsViewController.xib */; };
+		46CAC3671127547A0017C67E /* feeds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46CAC3661127547A0017C67E /* feeds.plist */; };
+		CD0E941A112CE9AA0059CC0F /* FavoriteEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0E9419112CE9AA0059CC0F /* FavoriteEvent.m */; };
+		CD169E181112708400B0D273 /* MyEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD169E161112708400B0D273 /* MyEventsViewController.m */; };
+		CD169E191112708400B0D273 /* MyEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD169E171112708400B0D273 /* MyEventsViewController.xib */; };
+		CD169E241112718E00B0D273 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD169E221112718E00B0D273 /* FeedViewController.m */; };
+		CD169E251112718E00B0D273 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD169E231112718E00B0D273 /* FeedViewController.xib */; };
+		CD169E5F1112738000B0D273 /* PlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD169E5D1112738000B0D273 /* PlacesViewController.m */; };
+		CD169E601112738000B0D273 /* PlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD169E5E1112738000B0D273 /* PlacesViewController.xib */; };
+		CD169E6C1112741200B0D273 /* 57-download.png in Resources */ = {isa = PBXBuildFile; fileRef = CD169E6B1112741200B0D273 /* 57-download.png */; };
+		CD3539311130422C000F90E6 /* MyEventsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35392F1130422C000F90E6 /* MyEventsDetailViewController.m */; };
+		CD3539321130422C000F90E6 /* MyEventsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3539301130422C000F90E6 /* MyEventsDetailViewController.xib */; };
+		CD3539971130514A000F90E6 /* Tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD3539961130514A000F90E6 /* Tiger.jpg */; };
+		CD353C391130CB8D000F90E6 /* EventWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD353C371130CB8D000F90E6 /* EventWebViewController.m */; };
+		CD353C3A1130CB8D000F90E6 /* EventWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD353C381130CB8D000F90E6 /* EventWebViewController.xib */; };
+		CD943D261129004700024F23 /* LocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD943D251129004700024F23 /* LocationAnnotation.m */; };
+		CDCBF8AA1131CCC400F903F8 /* RedButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDCBF8A91131CCC400F903F8 /* RedButton.jpg */; };
+		CDCBF8CE1131D2CD00F903F8 /* DarkRedButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDCBF8CD1131D2CD00F903F8 /* DarkRedButton.jpg */; };
+		CDCBF95F1131DF0F00F903F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCBF95E1131DF0F00F903F8 /* SystemConfiguration.framework */; };
+		CDD4EC031128C43500555675 /* places.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDD4EC021128C43500555675 /* places.plist */; };
+		CDD4EC4D1128D5FE00555675 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD4EC4B1128D5FE00555675 /* MapViewController.m */; };
+		CDD4EC4E1128D5FE00555675 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD4EC4C1128D5FE00555675 /* MapViewController.xib */; };
+		CDDA23D21131EB3E00F412B3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDA23D11131EB3E00F412B3 /* MessageUI.framework */; };
+		CDE37A6D1131C4D6004381C0 /* FeedCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE37A6C1131C4D6004381C0 /* FeedCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RitEventsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RitEventsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RitEventsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RitEventsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* RitEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RitEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* RitEvents_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RitEvents_Prefix.pch; sourceTree = "<group>"; };
+		3F0FC414110DEFF800675008 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		3F0FC415110DEFF800675008 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
+		3F0FC41A110DF05900675008 /* 71-compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "71-compass.png"; sourceTree = "<group>"; };
+		3F0FC452110DF22700675008 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F25DFF41129AB5800B24E70 /* FeedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedEvent.h; sourceTree = "<group>"; };
+		3F25DFF51129AB5800B24E70 /* FeedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedEvent.m; sourceTree = "<group>"; };
+		4614D17311275EEA004487DE /* RitEvents.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = RitEvents.xcdatamodel; sourceTree = "<group>"; };
+		4614D1831127603B004487DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		46B0050A112CDA15004ED233 /* FeedDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDetailViewController.h; sourceTree = "<group>"; };
+		46B0050B112CDA15004ED233 /* FeedDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailViewController.m; sourceTree = "<group>"; };
+		46B0050C112CDA15004ED233 /* FeedDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedDetailViewController.xib; path = Classes/FeedDetailViewController.xib; sourceTree = "<group>"; };
+		46CAC34E112753FD0017C67E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		46CAC34F112753FD0017C67E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		46CAC350112753FD0017C67E /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
+		46CAC3661127547A0017C67E /* feeds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = feeds.plist; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* RitEvents-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RitEvents-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CD0E9418112CE9AA0059CC0F /* FavoriteEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteEvent.h; sourceTree = "<group>"; };
+		CD0E9419112CE9AA0059CC0F /* FavoriteEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteEvent.m; sourceTree = "<group>"; };
+		CD169E151112708400B0D273 /* MyEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEventsViewController.h; sourceTree = "<group>"; };
+		CD169E161112708400B0D273 /* MyEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEventsViewController.m; sourceTree = "<group>"; };
+		CD169E171112708400B0D273 /* MyEventsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MyEventsViewController.xib; path = Classes/MyEventsViewController.xib; sourceTree = "<group>"; };
+		CD169E211112718E00B0D273 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		CD169E221112718E00B0D273 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		CD169E231112718E00B0D273 /* FeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedViewController.xib; path = Classes/FeedViewController.xib; sourceTree = "<group>"; };
+		CD169E5C1112738000B0D273 /* PlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesViewController.h; sourceTree = "<group>"; };
+		CD169E5D1112738000B0D273 /* PlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesViewController.m; sourceTree = "<group>"; };
+		CD169E5E1112738000B0D273 /* PlacesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlacesViewController.xib; path = Classes/PlacesViewController.xib; sourceTree = "<group>"; };
+		CD169E6B1112741200B0D273 /* 57-download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57-download.png"; sourceTree = "<group>"; };
+		CD35392E1130422C000F90E6 /* MyEventsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEventsDetailViewController.h; sourceTree = "<group>"; };
+		CD35392F1130422C000F90E6 /* MyEventsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEventsDetailViewController.m; sourceTree = "<group>"; };
+		CD3539301130422C000F90E6 /* MyEventsDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MyEventsDetailViewController.xib; path = Classes/MyEventsDetailViewController.xib; sourceTree = "<group>"; };
+		CD3539961130514A000F90E6 /* Tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tiger.jpg; sourceTree = "<group>"; };
+		CD353C361130CB8D000F90E6 /* EventWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventWebViewController.h; sourceTree = "<group>"; };
+		CD353C371130CB8D000F90E6 /* EventWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventWebViewController.m; sourceTree = "<group>"; };
+		CD353C381130CB8D000F90E6 /* EventWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EventWebViewController.xib; path = Classes/EventWebViewController.xib; sourceTree = "<group>"; };
+		CD943D241129004700024F23 /* LocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotation.h; sourceTree = "<group>"; };
+		CD943D251129004700024F23 /* LocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAnnotation.m; sourceTree = "<group>"; };
+		CDCBF8A91131CCC400F903F8 /* RedButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedButton.jpg; sourceTree = "<group>"; };
+		CDCBF8CD1131D2CD00F903F8 /* DarkRedButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DarkRedButton.jpg; sourceTree = "<group>"; };
+		CDCBF95E1131DF0F00F903F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDD4EC021128C43500555675 /* places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = places.plist; sourceTree = "<group>"; };
+		CDD4EC4A1128D5FE00555675 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		CDD4EC4B1128D5FE00555675 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		CDD4EC4C1128D5FE00555675 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MapViewController.xib; path = Classes/MapViewController.xib; sourceTree = "<group>"; };
+		CDDA23D11131EB3E00F412B3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CDE37A6B1131C4D6004381C0 /* FeedCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCategory.h; sourceTree = "<group>"; };
+		CDE37A6C1131C4D6004381C0 /* FeedCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCategory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				3F0FC453110DF22700675008 /* MapKit.framework in Frameworks */,
+				4614D1841127603B004487DE /* CoreData.framework in Frameworks */,
+				CDCBF95F1131DF0F00F903F8 /* SystemConfiguration.framework in Frameworks */,
+				CDDA23D21131EB3E00F412B3 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD353C361130CB8D000F90E6 /* EventWebViewController.h */,
+				CD353C371130CB8D000F90E6 /* EventWebViewController.m */,
+				CD0E9418112CE9AA0059CC0F /* FavoriteEvent.h */,
+				CD0E9419112CE9AA0059CC0F /* FavoriteEvent.m */,
+				CDE37A6B1131C4D6004381C0 /* FeedCategory.h */,
+				CDE37A6C1131C4D6004381C0 /* FeedCategory.m */,
+				46B0050A112CDA15004ED233 /* FeedDetailViewController.h */,
+				46B0050B112CDA15004ED233 /* FeedDetailViewController.m */,
+				3F25DFF41129AB5800B24E70 /* FeedEvent.h */,
+				3F25DFF51129AB5800B24E70 /* FeedEvent.m */,
+				CD169E211112718E00B0D273 /* FeedViewController.h */,
+				CD169E221112718E00B0D273 /* FeedViewController.m */,
+				CD943D241129004700024F23 /* LocationAnnotation.h */,
+				CD943D251129004700024F23 /* LocationAnnotation.m */,
+				CDD4EC4A1128D5FE00555675 /* MapViewController.h */,
+				CDD4EC4B1128D5FE00555675 /* MapViewController.m */,
+				CD35392E1130422C000F90E6 /* MyEventsDetailViewController.h */,
+				CD35392F1130422C000F90E6 /* MyEventsDetailViewController.m */,
+				CD169E151112708400B0D273 /* MyEventsViewController.h */,
+				CD169E161112708400B0D273 /* MyEventsViewController.m */,
+				CD169E5C1112738000B0D273 /* PlacesViewController.h */,
+				CD169E5D1112738000B0D273 /* PlacesViewController.m */,
+				1D3623240D0F684500981E51 /* RitEventsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RitEventsAppDelegate.m */,
+				46CAC34E112753FD0017C67E /* SettingsViewController.h */,
+				46CAC34F112753FD0017C67E /* SettingsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RitEvents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* RitEvents_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F0FC414110DEFF800675008 /* 20-gear2.png */,
+				CD169E6B1112741200B0D273 /* 57-download.png */,
+				3F0FC41A110DF05900675008 /* 71-compass.png */,
+				3F0FC415110DEFF800675008 /* 83-calendar.png */,
+				CDCBF8CD1131D2CD00F903F8 /* DarkRedButton.jpg */,
+				CD353C381130CB8D000F90E6 /* EventWebViewController.xib */,
+				46B0050C112CDA15004ED233 /* FeedDetailViewController.xib */,
+				46CAC3661127547A0017C67E /* feeds.plist */,
+				CD169E231112718E00B0D273 /* FeedViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				CDD4EC4C1128D5FE00555675 /* MapViewController.xib */,
+				CD3539301130422C000F90E6 /* MyEventsDetailViewController.xib */,
+				CD169E171112708400B0D273 /* MyEventsViewController.xib */,
+				CDD4EC021128C43500555675 /* places.plist */,
+				CD169E5E1112738000B0D273 /* PlacesViewController.xib */,
+				CDCBF8A91131CCC400F903F8 /* RedButton.jpg */,
+				8D1107310486CEB800E47090 /* RitEvents-Info.plist */,
+				4614D17311275EEA004487DE /* RitEvents.xcdatamodel */,
+				46CAC350112753FD0017C67E /* SettingsViewController.xib */,
+				CD3539961130514A000F90E6 /* Tiger.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDDA23D11131EB3E00F412B3 /* MessageUI.framework */,
+				4614D1831127603B004487DE /* CoreData.framework */,
+				3F0FC452110DF22700675008 /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				CDCBF95E1131DF0F00F903F8 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RitEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RitEvents" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RitEvents;
+			productName = RitEvents;
+			productReference = 1D6058910D05DD3D006BFB54 /* RitEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RitEvents" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = /Users/Thom/Documents/School/thombranch;
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RitEvents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				3F0FC416110DEFF800675008 /* 20-gear2.png in Resources */,
+				3F0FC417110DEFF800675008 /* 83-calendar.png in Resources */,
+				3F0FC41B110DF05900675008 /* 71-compass.png in Resources */,
+				CD169E191112708400B0D273 /* MyEventsViewController.xib in Resources */,
+				CD169E251112718E00B0D273 /* FeedViewController.xib in Resources */,
+				CD169E601112738000B0D273 /* PlacesViewController.xib in Resources */,
+				CD169E6C1112741200B0D273 /* 57-download.png in Resources */,
+				46CAC352112753FD0017C67E /* SettingsViewController.xib in Resources */,
+				46CAC3671127547A0017C67E /* feeds.plist in Resources */,
+				CDD4EC031128C43500555675 /* places.plist in Resources */,
+				CDD4EC4E1128D5FE00555675 /* MapViewController.xib in Resources */,
+				46B0050E112CDA15004ED233 /* FeedDetailViewController.xib in Resources */,
+				CD3539321130422C000F90E6 /* MyEventsDetailViewController.xib in Resources */,
+				CD3539971130514A000F90E6 /* Tiger.jpg in Resources */,
+				CD353C3A1130CB8D000F90E6 /* EventWebViewController.xib in Resources */,
+				CDCBF8AA1131CCC400F903F8 /* RedButton.jpg in Resources */,
+				CDCBF8CE1131D2CD00F903F8 /* DarkRedButton.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RitEventsAppDelegate.m in Sources */,
+				CD169E181112708400B0D273 /* MyEventsViewController.m in Sources */,
+				CD169E241112718E00B0D273 /* FeedViewController.m in Sources */,
+				CD169E5F1112738000B0D273 /* PlacesViewController.m in Sources */,
+				46CAC351112753FD0017C67E /* SettingsViewController.m in Sources */,
+				4614D17411275EEA004487DE /* RitEvents.xcdatamodel in Sources */,
+				CDD4EC4D1128D5FE00555675 /* MapViewController.m in Sources */,
+				CD943D261129004700024F23 /* LocationAnnotation.m in Sources */,
+				3F25DFF61129AB5800B24E70 /* FeedEvent.m in Sources */,
+				46B0050D112CDA15004ED233 /* FeedDetailViewController.m in Sources */,
+				CD0E941A112CE9AA0059CC0F /* FavoriteEvent.m in Sources */,
+				CD3539311130422C000F90E6 /* MyEventsDetailViewController.m in Sources */,
+				CD353C391130CB8D000F90E6 /* EventWebViewController.m in Sources */,
+				CDE37A6D1131C4D6004381C0 /* FeedCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RitEvents_Prefix.pch;
+				INFOPLIST_FILE = "RitEvents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = RitEvents;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RitEvents_Prefix.pch;
+				INFOPLIST_FILE = "RitEvents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = RitEvents;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RitEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RitEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

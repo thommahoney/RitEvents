@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>uriOptionValue</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Academic/College Events</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Admissions</string>
+		<key>uriOptionValue</key>
+		<string>15</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Alumni Events</string>
+		<key>uriOptionValue</key>
+		<string>17</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Athletic/Recreational</string>
+		<key>uriOptionValue</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Club Events/Activities</string>
+		<key>uriOptionValue</key>
+		<string>4</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Co-Op and Career Services</string>
+		<key>uriOptionValue</key>
+		<string>21</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Community Service</string>
+		<key>uriOptionValue</key>
+		<string>8</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Conferences/Workshops</string>
+		<key>uriOptionValue</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Construction/Maintenance</string>
+		<key>uriOptionValue</key>
+		<string>16</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cultural/Musical/Theatre</string>
+		<key>uriOptionValue</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Entertainment/Social</string>
+		<key>uriOptionValue</key>
+		<string>14</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Housing</string>
+		<key>uriOptionValue</key>
+		<string>18</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lecture/Speaker</string>
+		<key>uriOptionValue</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Major Student Events</string>
+		<key>uriOptionValue</key>
+		<string>9</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Meetings</string>
+		<key>uriOptionValue</key>
+		<string>11</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>On-Campus Recruiting</string>
+		<key>uriOptionValue</key>
+		<string>20</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Religious Life Events</string>
+		<key>uriOptionValue</key>
+		<string>13</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Training/Prof. Development</string>
+		<key>uriOptionValue</key>
+		<string>12</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Bausch &amp; Lomb Center</string>
+		<key>lat</key>
+		<real>43.086075</real>
+		<key>long</key>
+		<real>-77.675354</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Clark Gymnasium</string>
+		<key>lat</key>
+		<real>43.084618</real>
+		<key>long</key>
+		<real>-77.67388200000001</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>College of Applied Science &amp; Technology</string>
+		<key>lat</key>
+		<real>43.085957</real>
+		<key>long</key>
+		<real>-77.67768100000001</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>College of Business</string>
+		<key>lat</key>
+		<real>43.082973</real>
+		<key>long</key>
+		<real>-77.677132</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>College of Computing &amp; Information Sciences</string>
+		<key>lat</key>
+		<real>43.084427</real>
+		<key>long</key>
+		<real>-77.679863</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>College of Engineering</string>
+		<key>lat</key>
+		<real>43.084362</real>
+		<key>long</key>
+		<real>-77.678421</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>College of Imaging Arts &amp; Sciences</string>
+		<key>lat</key>
+		<real>43.085266</real>
+		<key>long</key>
+		<real>-77.67673499999999</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>College of Liberal Arts</string>
+		<key>lat</key>
+		<real>43.084446</real>
+		<key>long</key>
+		<real>-77.676407</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>College of Science</string>
+		<key>lat</key>
+		<real>43.08358</real>
+		<key>long</key>
+		<real>-77.677345</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Crossroads</string>
+		<key>lat</key>
+		<real>43.082588</real>
+		<key>long</key>
+		<real>-77.679962</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gordon Field House</string>
+		<key>lat</key>
+		<real>43.08514</real>
+		<key>long</key>
+		<real>-77.67160800000001</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ingle Auditorium</string>
+		<key>lat</key>
+		<real>43.084084</real>
+		<key>long</key>
+		<real>-77.674286</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>National Technical Institute for the Deaf</string>
+		<key>lat</key>
+		<real>43.087128</real>
+		<key>long</key>
+		<real>-77.668381</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ritter Ice Arena</string>
+		<key>lat</key>
+		<real>43.085461</real>
+		<key>long</key>
+		<real>-77.673897</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Student Alumni Union</string>
+		<key>lat</key>
+		<real>43.084042</real>
+		<key>long</key>
+		<real>-77.67433200000001</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Student Life Center</string>
+		<key>lat</key>
+		<real>43.084629</real>
+		<key>long</key>
+		<real>-77.672417</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Wallace Library</string>
+		<key>lat</key>
+		<real>43.083992</real>
+		<key>long</key>
+		<real>-77.676376</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Webb Auditorium</string>
+		<key>lat</key>
+		<real>43.085098</real>
+		<key>long</key>
+		<real>-77.676941</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Xerox Auditorium</string>
+		<key>lat</key>
+		<real>43.084229</real>
+		<key>long</key>
+		<real>-77.679062</real>
+	</dict>
+</array>
+</plist>
